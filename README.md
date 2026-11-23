@@ -1,31 +1,17 @@
-# CQR Regional Case Management Tool v6.0
+# CQR Regional Case Management Tool — v6.0.1
 
-Static browser application for demonstration and de-identified workflow testing. Upload the **contents** of this directory to the root of the existing GitHub Pages repository.
+## Deployment
+Upload all files in this folder to the root of the GitHub Pages repository (not the enclosing folder). Replace existing files and delete the obsolete `images/inquiry-cycle.png` file from the repository if present.
 
 ## Changes
-- New landing page: SLR Manager Principal Intake and ROCL upload
-- Brighter futures-inspired styling and supplied collaborative inquiry diagram
-- Intake JSON naming and separate Word/print exports
-- Individual phase Word/print exports
-- Connected goal summaries in Act and Monitor/Review
-- Goal-linked engagement records and case overview
-- OneSchool/SLR recording script assistant and user guide
-- Extended plan data fields and plan template export
-- Existing v5.1 case JSON import supported
+- Removed inquiry cycle image and its reference from landing page and user guide.
+- Added detailed built-in User Guide including Microsoft Edge desktop installation and taskbar instructions.
+- Expanded Quick Contact Records to three per category, including school-initiated contacts.
+- Improved scrolling and sizing on small laptop screens and mobile devices.
+- Removed the requested landing-page disclaimer.
+- Removed Open Case from active case workspace (retained ROCL entry upload).
+- Added Save Case / Continue / Stay reminder when navigating between inquiry phases.
+- Activated Feedback & Suggestions survey link.
 
-## Important
-No AI integrations or live feedback form. Government logos are deliberately omitted pending appropriate brand authorisation. No shared database, role-based access control or approved student-record storage. Do not enter identifiable student information until departmental approval. Test all exports and template mappings before operational rollout.
-
-
-## Version 6.0 review update (23 November 2026)
-
-- Landing page: prominent ROCL pathway opens the dedicated blue upload prompt; smaller secondary SLR Manager access; scalable CSS blue-arrow treatment.
-- Contact Log terminology, Case Summary, Save Case / Open Case, Download Phase Notes.
-- Expanding textareas, compact expandable goal references in Phases 3 and 4.
-- Phase 2 goal and implementation inputs grouped into structured goal cards (existing saved field keys preserved).
-- Quick Contact Records available in each phase and Contact Log; editable generic statements for OneSchool / Regional Tracker.
-- Feedback survey remains disabled; no AI integration.
-
-**Testing note:** Check the intake handover, phase exports, plan Word generation, contact editing, imported v5.1 cases, and printing before operational use.
-
-**Information governance:** Public hosting and browser-local storage have not been approved for identifiable student information. Use de-identified demonstration cases pending departmental approval.
+## Data and testing
+This application uses browser localStorage and downloaded JSON files, not centrally managed secure storage. Follow departmental information governance requirements and test with de-identified data until authorised.
