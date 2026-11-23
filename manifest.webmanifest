@@ -1,7 +1,7 @@
 {
-  "name": "CQ Student Services Tool",
-  "short_name": "CQ Student Services",
-  "description": "Central Queensland Student Services engagement tool",
+  "name": "CQR Regional Case Management Tool",
+  "short_name": "CQR Case Tool",
+  "description": "Central Queensland Region collaborative inquiry case management workflow",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
