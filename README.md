@@ -1,13 +1,15 @@
-# CQR Regional Case Management Tool — v6.0.2
+# CQR Regional Case Management Tool v6.0.3
 
-## Changes from v6.0.1
-- Restored the brief **Quick Help** popup used inside the case workspace.
-- The landing-page **User guide** button opens a **separate detailed, illustrated HTML guide** in a new tab.
-- The guide covers intake, ROCL handover, phases, case planning, contact records, exports, JSON backups, Microsoft Edge desktop installation and taskbar pinning.
-- The guide contains labelled illustrative interface diagrams rather than screenshots, as screenshots could not be captured reliably in the current build environment.
+Upload all files to the root of the existing GitHub Pages repository.
 
-## GitHub Pages deployment
-Upload all files, including `user-guide.html`, to the root of the existing GitHub Pages repository. Replace existing files. The guide works as a static page with no additional service or login.
+## Changes
+- Phase 2 now contains a single document-aligned Case Plan editor.
+- Legacy duplicate goal fields removed from the visible interface. Existing JSON goal keys are preserved for compatibility.
+- Supports up to five goals, with actions, responsible officer, timeframe and success measure for each.
+- The Review column is intentionally not editable in the tool; it remains in the official Word document for subsequent completion.
+- Preview Case Plan and Download Case Plan use the same data.
+- Phase Notes and Case Summary exports include the Case Plan fields.
+- Other v6.0.2 functions and the full User Guide are retained.
 
-## Important
-The app uses browser localStorage and JSON downloads, not centrally managed secure storage. Follow departmental information governance requirements. Test with de-identified data until authorised.
+## Testing
+Use fictional or de-identified cases. Confirm exported Word documents and JSON backups before operational use.
