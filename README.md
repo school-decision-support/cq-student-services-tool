@@ -1,17 +1,13 @@
-# CQR Regional Case Management Tool — v6.0.1
+# CQR Regional Case Management Tool — v6.0.2
 
-## Deployment
-Upload all files in this folder to the root of the GitHub Pages repository (not the enclosing folder). Replace existing files and delete the obsolete `images/inquiry-cycle.png` file from the repository if present.
+## Changes from v6.0.1
+- Restored the brief **Quick Help** popup used inside the case workspace.
+- The landing-page **User guide** button opens a **separate detailed, illustrated HTML guide** in a new tab.
+- The guide covers intake, ROCL handover, phases, case planning, contact records, exports, JSON backups, Microsoft Edge desktop installation and taskbar pinning.
+- The guide contains labelled illustrative interface diagrams rather than screenshots, as screenshots could not be captured reliably in the current build environment.
 
-## Changes
-- Removed inquiry cycle image and its reference from landing page and user guide.
-- Added detailed built-in User Guide including Microsoft Edge desktop installation and taskbar instructions.
-- Expanded Quick Contact Records to three per category, including school-initiated contacts.
-- Improved scrolling and sizing on small laptop screens and mobile devices.
-- Removed the requested landing-page disclaimer.
-- Removed Open Case from active case workspace (retained ROCL entry upload).
-- Added Save Case / Continue / Stay reminder when navigating between inquiry phases.
-- Activated Feedback & Suggestions survey link.
+## GitHub Pages deployment
+Upload all files, including `user-guide.html`, to the root of the existing GitHub Pages repository. Replace existing files. The guide works as a static page with no additional service or login.
 
-## Data and testing
-This application uses browser localStorage and downloaded JSON files, not centrally managed secure storage. Follow departmental information governance requirements and test with de-identified data until authorised.
+## Important
+The app uses browser localStorage and JSON downloads, not centrally managed secure storage. Follow departmental information governance requirements. Test with de-identified data until authorised.
